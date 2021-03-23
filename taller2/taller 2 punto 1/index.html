@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taller de Frameworks para Frontend</title>
+	<link rel="stylesheet" type="text/css" href="styles/estilos.css">
+</head>
+<body>
+	<div id="contenedor">
+		<h1>Calculadora</h1>
+		<div>
+			<input type="number" id="num1" value="0">
+			<p id="operacion"></p>
+			<input type="number" id="num2" value="0">
+		</div>
+		<div>
+			<button onclick=" sumar(),resetear()" onmouseover="simboloSuma()">Sumar</button>
+			<button onclick=" restar(),resetear()" onmouseover="simboloResta()">Restar</button>
+			<button onclick=" multiplicar(),resetear()" onmouseover="simboloMultiplicacion()">Multiplicar</button>
+			<br>
+			<button onclick=" dividir(),resetear()" class="bonotesDiv" onmouseover="simboloDivision()">Dividir</button>
+			<button onclick=" potencia(),resetear()" class="bonotesDiv" onmouseover=" simboloPotencia()">Potencia</button>
+		</div>
+		<div id="contenedorRespuesta">
+			<p id="result1"><strong> Resultado </strong></p>
+			<br>
+			<p id="result2"></p>
+		</div>
+	</div>
+	<script type="text/javascript" src="script/funciones.js"></script>
+</body>
+</html>
+
+
+

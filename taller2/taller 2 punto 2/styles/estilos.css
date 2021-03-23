@@ -1,0 +1,205 @@
+nav a {
+	font-family: 'Audiowide', cursive;
+	color: white ;
+	padding: 7px;
+}
+
+nav {
+	background: #212121;
+}
+
+#logo {
+	margin-left: 10px;
+	font-size: 28px;
+	color: white !important;
+}
+
+.itemsAppBar {
+	color: white !important;
+	font-size: 20px;
+}
+
+#separador {
+	width: 25%;
+}
+
+#infoGeneral{
+	position: relative;
+}
+
+
+#infoImg {
+	position: absolute;
+	width: 100%;
+	height: 800px;
+	z-index: 1;
+}
+
+#logo:hover {
+	color: red !important;
+	cursor: pointer;
+	transition: 1.1s;
+}
+
+nav a:hover {
+	color: red !important;
+	cursor: pointer;
+	transition: 1.1s;
+}
+
+#textoInf {
+	position: absolute; 
+	margin-top: 8px;
+	margin-left: 50px;
+	left: -400px;
+	font-family: 'Audiowide', cursive;
+	font-size: 80px; 
+	z-index: 5;
+}
+
+#cajaPrincipal {
+	position: relative;
+}
+
+#caja1 {
+	position: relative;
+	display: inline-block;
+	top: 810px;
+	width: 50%;
+	height:200px;
+	background: black;
+	border-radius: 60px;
+}
+
+#caja2 {
+	position: relative;
+	display: inline-block;
+	top: 800px;
+	width: 50%;
+	height:400px;
+	background: #F4F4F4;
+	border-radius: 40px;
+}
+
+
+#caja1 p {
+	position: relative;
+	color: white;
+	font-family: 'Audiowide', cursive;
+	font-size: 60px;
+	text-align: center;
+	top: 40%;
+	border-radius: 40px;
+	bottom: 15px;
+}
+
+@keyframes moverText {
+	from {
+		top: -100px;
+	}
+	to {
+		transform: translateY(2px);
+		bottom: 15px;
+	}
+}
+
+#caja2 p {
+	position: relative;
+	text-align: center;
+	font-family: 'Audiowide', cursive;
+	padding: 20px;
+	top: 30%;
+}
+
+#cajaFinal img {
+	position: relative;
+	top: 440px;
+	width: 98.5%;
+	height: 300px;
+	margin: 10px;
+}
+
+#infoImg2 {
+	position: absolute;
+	width: 100%;
+	height: 880px;
+	z-index: 50px;
+}
+
+#textoInformacion2 {
+	position: absolute; 
+	margin-top: 60px;
+	font-family: 'Audiowide', cursive;
+	font-size: 60px; 
+	color: #F4F4F4;
+	left: 840px;
+	animation-name: texttoanimado;
+	animation-duration: 5s;
+	z-index: 100;
+}
+
+@keyframes texttoanimado {
+	from {
+		left: -400px;
+	}
+	to {
+		left: 840px;
+	}
+}
+
+.cajasDescrip {
+	position: relative;
+	display: inline-block;
+	margin-top: 740px;
+	left: 430px;
+	margin-left: 90px;
+	animation-name: cajaAnimadax;
+	animation-duration: 4.5s;
+}
+
+@keyframes cajaAnimadax {
+	from {
+		margin-top: 1000px;
+	}
+	to{
+		margin-top: 740px;
+	}
+}
+
+.primario{
+	color: #F4F4F4;
+	font-size: 40px;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+}
+
+.secundario {
+	position: relative;
+	color :  #F4F4F4; 
+	font-family: 'Audiowide', cursive;
+	font-size: 20px;
+	bottom: 20px;
+}
+
+#bienvenido {
+	position: absolute;
+	font-size: 100px;
+	color: red;
+	font-family: 'Audiowide', cursive;
+	text-align: center;
+	z-index: 200px;
+	left: 15%;
+	top: 300px;
+	animation-name: bienvenidox;
+	animation-duration: 3s;
+}
+
+@keyframes bienvenidox {
+	from {
+		left: -500px;
+	}
+	to{
+		left: 15%;
+		color: red;
+	}
+}
